@@ -161,8 +161,8 @@ Open it in your browser.
 
 ## 🧭 9. Using the App
 
-1. Expand **“Thông tin cá nhân”** → Fill in details.
-2. Expand **“Mô tả công việc (JD)”** → Paste your job description.
+1. Expand **"Thông tin cá nhân"** → Fill in details.
+2. Expand **"Mô tả công việc (JD)"** → Paste your job description.
 3. (Optional) Upload your existing CV (`.docx`, `.pdf`, `.txt`).
 4. Choose one of:
 
@@ -173,7 +173,109 @@ Open it in your browser.
 
 ---
 
-## 🧹 10. Troubleshooting
+## 🤖 10. AI Chatbot Assistant
+
+The application includes an intelligent AI chatbot that provides real-time CV and career guidance.
+
+### 🎯 Chatbot Features
+
+#### **Quick Action Buttons**
+- **💡 Tư vấn CV**: Get personalized CV improvement suggestions
+- **📋 Phân tích JD**: Analyze job descriptions and extract key requirements
+- **📊 So sánh CV-JD**: Compare your CV with job descriptions to identify matches and gaps
+- **🎯 Kỹ năng cần**: Identify skills you need to develop based on target jobs
+
+#### **File Upload Support**
+- **Documents**: Upload CVs and JDs in `.txt`, `.md`, `.docx`, `.pdf` formats
+- **Images**: Upload screenshots of CVs or JDs in `.jpg`, `.jpeg`, `.png` formats
+- **Automatic Processing**: Files are automatically analyzed and integrated into the conversation
+
+#### **Advanced Chat Capabilities**
+- **Multi-line Input**: Large text area for detailed questions and descriptions
+- **Context Awareness**: Uses your profile information for personalized responses
+- **Real-time Responses**: Instant AI-powered guidance and suggestions
+- **Conversation History**: Maintains chat history during your session
+
+### 💬 How to Use the Chatbot
+
+1. **Access the Chatbot**: The chat interface is located in the left sidebar, which opens automatically when the app loads.
+
+2. **Enable Chat**: Make sure the "Bật trợ lý chat" checkbox is checked to activate the chatbot.
+
+3. **Quick Actions**: Use the quick action buttons for common tasks:
+   - Click "💡 Tư vấn CV" for CV improvement suggestions
+   - Click "📋 Phân tích JD" to analyze job descriptions
+   - Click "📊 So sánh CV-JD" to compare your CV with job requirements
+   - Click "🎯 Kỹ năng cần" to identify skill gaps
+
+4. **Upload Files**: Use the file uploader to analyze documents or images:
+   - Upload your CV for personalized feedback
+   - Upload job descriptions for detailed analysis
+   - Upload screenshots of CVs or JDs for image-based analysis
+
+5. **Ask Questions**: Use the text area to ask specific questions about:
+   - CV formatting and content
+   - Job application strategies
+   - Interview preparation
+   - Career development advice
+   - Skill gap analysis
+
+### 📁 Supported File Types
+
+| File Type | Formats | Purpose |
+|-----------|---------|---------|
+| Documents | `.txt`, `.md`, `.docx`, `.pdf` | CV analysis, JD extraction |
+| Images | `.jpg`, `.jpeg`, `.png` | Screenshot analysis, document images |
+
+### 🔧 Technical Features
+
+#### **Advanced AI Capabilities**
+- **Retry Mechanisms**: Automatic retry with exponential backoff for API reliability
+- **Batching**: Efficient processing of multiple requests for better performance
+- **Function Calling**: Structured responses for CV analysis and comparison
+- **Error Handling**: Comprehensive error recovery and user-friendly messages
+
+#### **Performance Optimization**
+- **Batch Processing**: Groups similar requests to reduce API calls
+- **Caching**: Maintains conversation context for relevant responses
+- **Rate Limiting**: Smart handling of API limits with progressive delays
+
+### 💡 Best Practices
+
+1. **Provide Context**: Fill in your personal information in the main form for more personalized chatbot responses.
+
+2. **Upload Files**: Upload your CV and target job descriptions for the most accurate analysis.
+
+3. **Be Specific**: Ask detailed questions for more helpful responses.
+
+4. **Use Quick Actions**: Start with quick action buttons for common scenarios.
+
+5. **Review Suggestions**: The chatbot provides actionable suggestions - implement them in your CV.
+
+### 🚨 Troubleshooting Chatbot Issues
+
+| Issue | Solution |
+|-------|----------|
+| Chatbot not responding | Check if "Bật trợ lý chat" is enabled |
+| File upload not working | Ensure file is in supported format and under size limits |
+| Slow responses | The AI is processing complex analysis - please wait |
+| Error messages | Check your internet connection and API key configuration |
+
+### 🎓 Example Use Cases
+
+1. **CV Improvement**: Upload your CV and ask "How can I improve my CV for a Python developer position?"
+
+2. **JD Analysis**: Upload a job description and ask "What are the key requirements for this role?"
+
+3. **Skill Gap Analysis**: Provide your skills and a target JD to identify what you need to learn.
+
+4. **Interview Preparation**: Ask "What technical questions should I expect for a backend developer interview?"
+
+5. **Career Advice**: "What's the best career path for someone with my skills and experience?"
+
+---
+
+## 🧹 11. Troubleshooting
 
 | Problem                          | Solution                                      |
 | -------------------------------- | --------------------------------------------- |
@@ -204,4 +306,4 @@ Open it in your browser.
 
 ---
 
-**Developed with ❤️ using Streamlit and OpenAI API**
+**Developed by OpenCV Team
